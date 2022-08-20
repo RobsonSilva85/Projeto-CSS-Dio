@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;        
+    border: 2px solid black;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.default {
+    flex-flow: row nowrap;
+}
+.wrap {
+    flex-flow: row wrap;
+}
+.wrap-reverse {
+    flex-flow: row wrap-reverse;
+}
+.row-reverse {
+    flex-flow: row-reverse nowrap;
+}
+.row-reverse-wrap {
+    flex-flow: row-reverse wrap;
+}
+.row-rev-wrap-rev {
+    flex-flow: row-reverse wrap-reverse;
+}
+.item{
+    background: blueviolet;
+    width: 100px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid black;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+.auto{
+    flex-basis: auto;
+}
+.fg-0{
+    flex-grow: 0;
+}
+.fg-1{
+    flex-grow: 1;
+}
+.fb-px{
+    flex-basis: 50px;
+}
+.fb-em{
+    flex-basis: 5em;
+}.fb-por{
+    flex-basis: 100%;
+}
+.fb-zero{
+    flex-basis: 0;
+}
